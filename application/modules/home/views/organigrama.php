@@ -50,7 +50,7 @@ Organigrama
 
 
 <a href="<?php base_url() ?>" >
-                    <img src="<?php base_url() ?>assets/home/images/organigrama.jpg" alt="">
+                    <img src="<?php base_url() ?>assets/images/organigrama.jpg" alt="">
                 </a>
 
 

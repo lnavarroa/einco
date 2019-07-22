@@ -16,7 +16,7 @@ Mision Section Start
                                 </a>
                                 <ul class="nav nav-pills flex-column">
                                     <li class="nav-item">
-                                        <img src="<?php base_url() ?>assets/home/images/qsomos.jpg" alt="">
+                                        <img src="<?php base_url() ?>assets/images/qsomos.jpg" alt="">
                                     </li>
                                 </ul>
                                 <hr class="d-sm-none">
@@ -77,7 +77,7 @@ Mision Section Start
                                 </a>
                                 <ul class="nav nav-pills flex-column">
                                     <li class="nav-item">
-                                        <img src="<?php base_url() ?>assets/home/images/qsomos.jpg" alt="">
+                                        <img src="<?php base_url() ?>assets/images/qsomos.jpg" alt="">
                                     </li>
                                 </ul>
                                 <hr class="d-sm-none">

@@ -114,7 +114,7 @@ opacity: 1.0;
 
 /*! eincocarousel */
 #eincocarousel {
-  background: url("../../../home/images/slider.jpg") no-repeat 50%;
+  background: url("../../../images/slider.jpg") no-repeat 50%;
   background-size: cover;
   background-attachment: fixed;
   padding: 230px 0;

@@ -4,7 +4,7 @@
             <!-- logo -->
             <div class="navbar-brand">
                 <a href="<?php base_url() ?>" >
-                    <img src="<?php base_url() ?>assets/home/images/logo.jpg" alt="">
+                    <img src="<?php base_url() ?>assets/images/logo.jpg" alt="">
                 </a>
             </div>
             <!-- /logo -->
