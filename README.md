@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CI3.1.7_HMVC
 CodeIgniter 3.1.7 HMVC
 
@@ -9,3 +10,8 @@ This is a CodeIgniter Hmvc template created by YLIT to run fast your own proyect
 
 In this template, you'll find a few modules ready to work, you can see it at:.
 application/modules/
+=======
+# einco
+>>>>>>> a46c0392af14a4999fa7007aa302a5a278bea1f4
+
+Sitio creado por https://ylit.cl/
