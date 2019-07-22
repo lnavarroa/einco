@@ -1,0 +1,14 @@
+12 febrero 2019
+	creación módulo email
+		controlador Mail ----->creación codigo de envio emails de contacto
+		vista contacto ------>configuracion de la vista del formulario de contacto
+
+		Este módulo ya se encuentra implantado y funcionando, la vista es el código encargadado de recolectar
+		para posteriormente envíar los datos del formulario de contacto al controlador. Este controlador recibe los
+		datos producidos en la recolección, y mediante la funcion $_POST los extrae para que nosotros los podamos
+		almacenar en un array y así poder enviar los email de contacto
+
+
+17 febrero 2019
+	Instalación servicio REST
+		

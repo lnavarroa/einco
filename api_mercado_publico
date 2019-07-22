@@ -1,0 +1,91 @@
+
+Servicio Web
+
+Los archivos de los recursos a los que se accede a través de api.mercadopublico.cl, utilizan las siguientes estructuras:
+
+    Formato JSON:
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Formato JSONP:
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.jsonp?fecha=02022014&callback=respuesta&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Formato XML:
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.xml?fecha=02022014&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+
+Notas sobre la información solicitada
+
+Los estados de las licitaciones consultadas serán mostrados por código, descritos de la siguiente forma:
+
+    Publicada = "5"
+    Cerrada = "6"
+    Desierta = "7"
+    Adjudicada = "8"
+    Revocada = "18"
+    Suspendida = "19"
+
+
+Tipos de Consultas
+
+    Por {código} de licitación:
+
+    Ejemplo de {codigo} = 1509-5-L114
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?codigo=1509-5-L114&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Por todos los estados del día actual:
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Por todos los estados de una {fecha} en particular:
+
+    Ejemplo de {fecha} = 02022014
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+
+    Por estado "activas" :
+
+    La opción estados "activas", muestra todas las licitaciones publicadas al día de realizada la consulta.
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?estado={estado}&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?estado=activas&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+
+    Por {estado} del día actual::
+
+    {estados} de las licitaciones:
+        Publicada
+        Cerrada
+        Desierta
+        Adjudicada
+        Revocada
+        Suspendida
+        Todos (muestra todos los estados posibles antes señalados)
+
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&estado={estado}&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&estado=adjudicada&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Por {código} de Organismo Público:
+
+    Ejemplo de {CódigoOrganismo} = 694
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha={fecha}&CodigoOrganismo={CódigoOrganismo}&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&CodigoOrganismo=6945&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    Por {código} de Proveedor:
+
+    Ejemplo de {CódigoProveedor} = 17793
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&CodigoProveedor={CódigoProveedor}&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+    http://api.mercadopublico.cl/servicios/v1/publico/licitaciones.json?fecha=02022014&CodigoProveedor=17793&ticket=F8537A18-6766-4DEF-9E59-426B4FEE2844
+
+Los resultados de las búsquedas son realizadas en base a las Licitaciones Publicadas en el día. Los resultados entregados son con información básica de las Licitaciones.
+
+En el caso de la búsqueda por código no importa la fecha, siempre obtendrá la Licitación solicitada. El resultado entregado por la búsqueda es información detallada de la Licitación.
+
+El formato de la fecha es ddmmaaaa, ejemplo: 12062014, obtendrá las Licitaciones del día 12 del mes de junio del año 2014.
