@@ -2,7 +2,7 @@
 Services Section Start
 ================================================== -->
 <section class="servs" id="services">
-    <div class="col-sm-12" style="margin-top:60px">
+    <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <div class="col-sm-4">
                 <h2>-----</h2>

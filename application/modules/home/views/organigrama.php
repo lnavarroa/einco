@@ -3,7 +3,7 @@
 Organigram Section Start
 ================================================== -->
 <section class="organization" id="organigram">
-    <div class="col-sm-12" style="margin-top:60px">
+    <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <div class="col-sm-4">
                 <h2>-----</h2>
@@ -52,13 +52,6 @@ Organigrama
 <a href="<?php base_url() ?>" >
                     <img src="<?php base_url() ?>assets/images/organigrama.jpg" alt="">
                 </a>
-
-
-
-
-
-
-
 
 Dirección General
 EINCO SOLUCIONES tiene sus oficinas en Av. Irarrázaval nº2821, oficina nº1110, en la ciudad de  Santiago de Chile.  Su  actividad  siempre  ha  estado   relacionada   con   la   consultoría y construcción.

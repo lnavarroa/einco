@@ -3,8 +3,8 @@
 ==================================================
 Valores Section Start
 ================================================== -->
-<section class="values" id="valors">
-    <div class="col-sm-12" style="margin-top:60px">
+<section class="valors" id="values">
+    <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <div class="col-sm-4">
                 <div id="module" class="container">

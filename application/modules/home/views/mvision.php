@@ -3,11 +3,11 @@
 Mision Section Start
 ================================================== -->
 <section class="mvision" id="mision">
-    <div class="col-sm-12" style="margin-top:60px">
+    <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
-            
+
             <!-- Misión  -->
-            <div class="container" style="margin-top:30px">
+            
                 <div class="row"> <!-- /#Mision row -->
                     <div class="col-sm-4">
                         <div>
@@ -47,11 +47,11 @@ Mision Section Start
                         </div>
                     </div>
                 </div><!-- /#Mision row -->
-            </div>
+            
             <!-- /Misión  -->
     
             <!-- Visión  -->
-            <div class="container" style="margin-top:30px">
+            
                 <div class="row"><!-- /#Vision row -->
                     <div class="col-sm-8">
                         <div id="module" class="container">
@@ -86,7 +86,7 @@ Mision Section Start
                         </div>
                     </div>
                 </div><!-- /#Vision row -->
-            </div> 
+            
             <!-- /Visión  -->
 
         </div><!-- /#row -->
