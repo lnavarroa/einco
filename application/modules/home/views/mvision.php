@@ -5,6 +5,7 @@ Mision Section Start
 <section class="mvision" id="mision">
     <div class="col-sm-12" style="margin-top:60px">
         <div class="row">
+            
             <!-- Misión  -->
             <div class="container" style="margin-top:30px">
                 <div class="row"> <!-- /#Mision row -->

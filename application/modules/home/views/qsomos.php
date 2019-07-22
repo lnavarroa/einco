@@ -3,8 +3,9 @@
 QSomos Section Start
 ================================================== -->
 <section class="qsomos" id="about">
-    <div class="col-sm-12" style="margin-top:60px">
-        <div class="row">           
+    <div class="col-sm-12" style="margin-top:80px">
+        <div class="row">  
+
             <div class="col-sm-8">
                 <div id="module" class="container">
                     <h1>Quienes Somos</h1>
@@ -46,6 +47,7 @@ QSomos Section Start
                 </ul>
                 <hr class="d-sm-none">
             </div>
+
         </div>
     </div>
 </section> 
