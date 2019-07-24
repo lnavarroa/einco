@@ -5,27 +5,19 @@ Mision Section Start
 <section class="mvision" id="mision">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
-
             <!-- Misión  -->
-            
                 <div class="row"> <!-- /#Mision row -->
-                    <div class="col-sm-4">
-                        <div>
-                            <div class="fakeimg"><h1>Misión</h1></div>
-                                <a role="button" class="collapsed" data-toggle="collapse" 
-                                    href="#collapseQsomos" aria-expanded="false" aria-controls="collapseQsomos">
-                                </a>
-                                <ul class="nav nav-pills flex-column">
-                                    <li class="nav-item">
-                                        <img src="<?php base_url() ?>assets/images/qsomos.jpg" alt="">
-                                    </li>
-                                </ul>
-                                <hr class="d-sm-none">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-4" style="margin-left:10px">
                         <div id="module" class="container">
+                        <ul class="nav nav-pills flex-column">
+                            <li class="nav-item">
+                                <img src="<?php base_url() ?>assets/images/qsomos.jpg" alt="misión">
+                            </li>
+                        </ul>
+                        <hr class="d-sm-none">
+                    </div></div>
+                    <div class="col-sm-8"> 
+                        <div id="module" class="container">           
                             <h1>Misión</h1>
                             <h5>EINCO SOLUCIONES SpA.</h5>
                             <p>Somos un grupo de profesionales altamente motivado, que tienen muy claro el papel 
@@ -44,14 +36,12 @@ Mision Section Start
                                 focalizados en la calidad, ya que nos basamos en la experiencia y excelencia
                                 profesional.
                             </div>
-                        </div>
+                        </div></div>
+                    </div>
                     </div>
                 </div><!-- /#Mision row -->
-            
             <!-- /Misión  -->
-    
             <!-- Visión  -->
-            
                 <div class="row"><!-- /#Vision row -->
                     <div class="col-sm-8">
                         <div id="module" class="container">
@@ -72,8 +62,7 @@ Mision Section Start
                     </div>
                     <div class="col-sm-4">
                         <div>
-                            <div class="fakeimg"><h1>Visión</h1></div>
-                                <a role="button" class="collapsed" data-toggle="collapse" 
+                            <a role="button" class="collapsed" data-toggle="collapse" 
                                     href="#collapseQsomos" aria-expanded="false" aria-controls="collapseQsomos">
                                 </a>
                                 <ul class="nav nav-pills flex-column">
@@ -86,9 +75,7 @@ Mision Section Start
                         </div>
                     </div>
                 </div><!-- /#Vision row -->
-            
             <!-- /Visión  -->
-
         </div><!-- /#row -->
     </div>    
 </section> <!-- /#feature -->

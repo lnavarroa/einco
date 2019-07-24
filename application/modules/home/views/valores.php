@@ -3,7 +3,7 @@
 ==================================================
 Valores Section Start
 ================================================== -->
-<section class="valors" id="values">
+<section class="vals" id="values">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <div class="col-sm-4">
