@@ -2,7 +2,8 @@
 ==================================================
 Organigram Section Start
 ================================================== -->
-<section class="organization" id="organigram">
+<div class="row">
+<div class="organization" id="organigram">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">  
             <div class="col-sm-8">
@@ -79,5 +80,6 @@ Organigram Section Start
             </div>
         </div>
     </div>
-</section> 
-<!-- /#about -->
+</div> 
+</div>
+<!-- /#organization -->

@@ -3,7 +3,8 @@
             ==================================================
             Call To Action Section Start
             ================================================== -->
-            <section id="call-to-action">
+            <div class="row">
+            <div id="call-to-action">
                 <div class="col-sm-12">
                     <div class="row">
                         <div class="col-md-12">
@@ -16,12 +17,13 @@
                         
                     </div>
                 </div>
-            </section>
+            </div>
+            </div>
 
             <!--
             ==================================================
             Facebook Comments
             ================================================== -->
-            <section id="facebook-comments">
+            <div id="facebook-comments">
                 <div class="fb-comments" data-href="https://tutorials.ylit.cl" data-numposts="20"></div>
-            </section>
+            </div>

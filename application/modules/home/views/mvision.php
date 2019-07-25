@@ -2,7 +2,8 @@
 ==================================================
 Mision Section Start
 ================================================== -->
-<section class="mvision" id="mision">
+<div class="row">
+<div class="mvision" id="mision">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <!-- Misión  -->
@@ -78,4 +79,5 @@ Mision Section Start
             <!-- /Visión  -->
         </div><!-- /#row -->
     </div>    
-</section> <!-- /#feature -->
+</div> <!-- /#feature -->
+</div> 

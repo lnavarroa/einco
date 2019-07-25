@@ -1,7 +1,8 @@
 <!--==================================================
 Services Section Start
 ================================================== -->
-<section class="servs" id="services">
+<div class="row">
+<div class="servs" id="services">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">  
             <div class="col-sm-3">
@@ -137,4 +138,5 @@ puentes ante la acción de los elementos y parámetros que los afectan.</p>
             </div>
         </div>
     </div>
-</section> 
+</div>
+</div> 

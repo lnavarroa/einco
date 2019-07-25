@@ -2,7 +2,8 @@
 ==================================================
 QSomos Section Start
 ================================================== -->
-<section class="qsomos" id="about">
+<div class="row">
+<div class="qsomos" id="about">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">  
             <div class="col-sm-8">
@@ -48,5 +49,6 @@ QSomos Section Start
             </div>
         </div>
     </div>
-</section> 
+</div> 
+</div> 
 <!-- /#about -->

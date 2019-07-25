@@ -3,7 +3,8 @@
 ==================================================
 Valores Section Start
 ================================================== -->
-<section class="vals" id="values">
+<div class="row">
+<div class="vals" id="values">
     <div class="col-sm-12" style="margin-top:80px">
         <div class="row">
             <div class="col-sm-4">
@@ -21,7 +22,7 @@ Valores Section Start
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-8">
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
                         <img src="<?php base_url() ?>assets/images/qsomos.jpg" alt="">

@@ -4,7 +4,9 @@
 ==================================================
 Footer Section Start
 ================================================== -->
-<footer id="footer">
+<footer> 
+<div class="row">
+<div id="footer">
     <div class="col-sm-12">
         <div class="col-md-8">
             <p class="copyright">EINCO derechos reservados <span><script>document.write(new Date().getFullYear())</script></span> Sitio desarrollado por <a href="http://www.ylit.cl" target="_blank">Ylit.cl</a>. <br> 
@@ -34,6 +36,8 @@ Footer Section Start
                 </li>
             </ul> -->
         </div>
+    </div>
+    </div>
     </div>
 </footer> 
 <!-- /#footer -->
